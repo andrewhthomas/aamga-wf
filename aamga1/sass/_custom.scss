@@ -1,9 +1,16 @@
 html {
-  background: gray;
+  
 }
 
 body {
-  margin: 20px auto;
+  background: #EEE url(../images/debut_dark.png);
+}
+
+#container {
+	margin: 0 auto;
+	padding: 20px 0;
+	background: #FFF;
+	max-width: 72.25em;
 }
 
 #slogan {
@@ -14,6 +21,23 @@ body {
 }
 
 
-
 .panel {
+	box-shadow: $panel-box-shadow;
 }
+
+.panel.callout {
+	background: $panel-bg-alt;
+	border-color: $panel-border-color-alt;
+	box-shadow: $panel-box-shadow-alt;
+}
+
+.panel.callout a {
+	color: $panel-font-color-alt;
+}
+
+#logo-copy {
+	position: absolute;
+	top: 60px;
+	left: -40px;
+}
+

@@ -20,7 +20,8 @@
 </head>
 <body>
 
-	<!-- Basic Needs -->
+<!-- Basic Needs -->
+<div class="fixed contain-to-grid">
 <nav class="top-bar">
   <ul class="title-area">
     <li class="name"><h1><a href="/">Sample Development Pages</a></h1></li>
@@ -35,29 +36,18 @@
     </ul>
   </section>
 </nav>
+</div>
 
-	<div class="row">
-    <div class="small-12 large-4 columns">
-    	<img src="images/logo.png" alt="AAMGA" />
+<div id="container">
+<div class="row">
+<div class="small-12 large-8 columns">
+
+<div id="navigation" class="row">
+    <div class="small-12 large-2 columns">
+    	<img src="images/logo-flag.png" alt="AAMGA logo" />
     </div>
-    <div class="large-8 columns">
-    <h1 id="slogan">A Heritage of Integrity and Professionalism Since 1926</h1>
-    </div>
-  </div>
-
-	<!-- Nav  -->
-
-  <div class="row">
-    <div class="large-12 columns">
-    	<ul id="secondary-menu" class="nav-bar">
-				<li><a href="#">» Find an AAMGA Member</a></li>
-				<li><a href="#">» Become an AAMGA Member</a></li>
-				<li><a href="#">» Get Involved</a></li>
-			</ul>
-
-      
-      
-      <div class="section-container horizontal-nav" data-section="" data-options="deep_linking: false">
+    <div class="small-12 large-10 columns">
+    <div class="section-container horizontal-nav" role="navigation" data-section="" data-options="deep_linking: false">
               <section class="section">
                 <p class="title"><a href="#">Home</a></p>
                 <p class="title"><a href="#">About</a></p>
@@ -119,184 +109,87 @@
                   </ul>
                 </div>
               </section>
-              <section class="section">
-                <p class="title"><a href="#">HR Links</a></p>
-                <div class="content">
-                  <ul class="side-nav">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Link 1</a></li>
-                  </ul>
-                </div>
-              </section>
             </div>
 
+            <dl class="sub-nav">
+  <dt></dt>
+  <dd><a href="#">Industry News</a></dd>
+  <dd><a href="#">Documents</a></dd>
+  <dd><a href="#">Media</a></dd>
+  <dd><a href="#">HR Links</a></dd>
+</dl>
 
     </div>
   </div>
 
-  <!-- End Nav -->
 
 
   <!-- Main Content Section -->
 
   <div class="row">
 
-    <div class="large-8 columns">
+    <div id="hero-unit" class="large-12 columns">
     	<!-- Main Banner Image - place in a paragraph to enforce the modular scale spacing -->
-      <div id="slider">
-        <div data-caption="#captionOne">
-          <img src="http://placehold.it/1000x400&amp;text=[Event Image 1]" />
-        </div>
-        <div data-caption="#captionTwo">
-          <img src="http://placehold.it/1000x400&amp;text=[Event Image 2]" />
-        </div>
-        <div data-caption="#captionThree">
-          <img src="http://placehold.it/1000x400&amp;text=[img 3]" />
-        </div>
-        <div data-caption="#captionFour">
-          <img src="http://placehold.it/1000x400&amp;text=[img 4]" />
-        </div>
-      </div>
-
-      <span class="orbit-caption" id="captionOne">Event description #1 goes here...</span>
-      <span class="orbit-caption" id="captionTwo">Event description #2 goes here...</span>
-      <span class="orbit-caption" id="captionThree">Here is caption 3...</span>
-      <span class="orbit-caption" id="captionFour">Here is caption 4...</span>
-
-      <hr />
-      <h3>Welcome to the American Association of Managing General Agents: the Leader of the Wholesale Insurance Marketplace</h3>
-      <div class="row">
-      <div class="large-6 columns">
-      <p>Since 1926, the AAMGA has served as the trade association to international wholesale insurance professionals, and as a leader representing the interests of its members before the federal, state and local governmental and regulatory agencies, to elected officials and other industry trade associations in the US, Canada and Europe. Through its focus on fostering relationships, conducting market-wide meetings and educational sessions throughout the year, the AAMGA has earned its trusted reputation by serving as the catalyst to industry practitioners focused on the wholesale insurance marketplace.</p>
-      <p><a href="#" class="small radius button">Learn More &rarr;</a></p>
-    	</div>
-    	<div class="large-6 columns">
-    	<img src="http://placehold.it/400x300&amp;text=[img]">
-    	</div>
-  		</div>
-  		<hr />
-
-  		<h3>About Membership</h3>
-
-			<div class="row">
-      <div class="large-6 columns">
-      <p>Membership in the Association is highly selective. Those managing general agents admitted to the ranks of the Association must first have demonstrated high standards of excellence and experience, integrity and company representation. Membership criteria, and the AAMGA’s vetting process of all prospective members have been identified as two of the main reasons why so many domestic and international markets view the AAMGA as representing the “gold standard” in the wholesale insurance industry.</p>
-      <p><a href="#" class="small radius button">Learn More &rarr;</a></p>
-    	</div>
-    	<div class="large-6 columns">
-    	<img src="http://placehold.it/400x300&amp;text=[img]">
-    	</div>
-    	</div>
-  	<hr />
-  	<dl class="tabs three-up">
-  	<dd class="active"><a href="#simple1">Videos</a></dd>
-  	<dd><a href="#simple2">AAMGA University</a></dd>
-  	<dd><a href="#simple3">Materials &amp; Downloads</a></dd>
-		</dl>
-		<ul class="tabs-content">
-  	<li class="active" id="simple1Tab">
-  		<div class="row">
-  			<div class="large-4 columns">
-  				<p><a class="th" href="#"><img src="images/overviewvidicon.gif" /></a></p>
-  				<p>To learn more about the AAMGA and its efforts in advancing the Wholesale Insurance Community please click on the video above.</p>
-  			</div>
-  			<div class="large-4 columns">
-  				<p><a class="th" href="#"><img src="images/bluechipvidicon.gif" /></a></p>
-  				<p>To learn more about managing general agents and their important role in the insurance industry, please click on the video above.</p>
-  			</div>
-  			<div class="large-4 columns">
-  				<p><a class="th" href="#"><img src="images/openingvideo2011.jpg" /></a></p>
-  				<p>Click the video above to learn more about careers in the wholesale insurance industry.</p>
-  			</div>
-  		</div>
-  	</li>
-  	<li id="simple2Tab">
-  		<div class="row">
-  		<div class="large-6 columns">
-  		<p>The demands of the insurance marketplace require relentless energy and a commitment to continuing education toward the refinement of one’s professional skills. The AAMGA University is certified by all 50 state insurance departments and offers over 60 specialized classes and educational tracks in all lines of property and casualty insurance and professional development.</p>
-  		<p><a href="#" class="small radius button">Learn More &rarr;</a></p>
-  	</div>
-  	<div class="large-6 columns">
-    <img src="http://placehold.it/400x300&amp;text=[img]">
+      <a href="#" class="th"><img src="images/conference.jpg" alt="Conference center" /></a>
+      <div id="logo-copy" class="panel"><img src="images/logo-copy.png" alt="AAMGA" /></div>
+      <h1>A Heritage of Integrity and Professionalism Since 1926</h1>
+      <p>Since 1926, the AAMGA has served as the trade association to international wholesale insurance professionals, and as a leader representing the interests of its members before the federal, state and local governmental and regulatory agencies, to elected officials and other industry trade associations in the US, Canada and Europe.</p>
     </div>
-  </div>
-  	</li>
-  	<li id="simple3Tab">
+</div>
+    
+      <hr />
+      <div class="row">
+
+    <div class="large-12 columns">
   		<div class="row">
-  			<div class="large-4 columns">
-  				<p><a class="th" href="#"><img src="images/historybook.jpg" height="246" /></a></p>
+  			<div class="large-3 columns">
+  				<p><a class="th" href="#"><img src="images/historybook.jpg" /></a></p>
+        </div>
+        <div class="large-3 columns">
+          <h3>Proud History <br />Bright Future</h3>
   				<p><a href="#">Click here</a> to order your personal copy of the AAMGA's "Proud History - Bright Future: Volume II (1991-2011)" book.</p>
-  			</div>
-  			<div class="large-4 columns">
+        </div>
+
+  			<div class="large-3 columns">
   				<p><a class="th" href="#"><img src="images/Winter2013_WIN_coversmall.jpg" height="246" /></a></p>
+        </div>
+        <div class="large-3 columns">
+          <h3>WIN Magazine <br />Winter 2012</h3>
   				<p><a href="#">Click here</a> to view the wholesale insurance industry's newest magazine "WIN."</p>
   			</div>
-  			<div class="large-4 columns">
-  				<p><a class="th" href="#"><img src="images/annualreportcover.jpg" height="246" /></a></p>
-  				<p><a href="#">Click here</a> to download your copy of the 2011-2012 AAMGA Annual Report.</p>
-  			</div>
   		</div>
-  	</li>
-		</ul>
     </div>
+
+  </div>
+</div>
 
     <div class="large-4 columns">
 
-    	<p><a href="http://www.facebook.com/AAMGA"><img src="images/fbicon.jpg" width="32" /></a> <a href="https://twitter.com/aamgatweets"><img src="images/twittericon.jpg" width="32" /></a> <a href="http://www.linkedin.com/groups?gid=1820783&goback=.gdr_1279821153402_1.anb_1820783_*2"><img src="images/linkedinicon.jpg" width="32" /></a></p>
-
-        <h4 id="events">» Upcoming Events</h4>
-<div class="panel">
-
-                <h4><a href="#">March 2&#8211;5, 2013</a></h4>
-
-                <div class="row">
-                  <div class="large-4 columns">
-                    <p><a href="#" class="th"><img src="http://www.aamga.org/files/AutomationCover.jpg?1351783843" /></a></p>
-                  </div>
-                  <div class="large-8 columns">
-
-
-
-            		<p><strong>Automation &amp; Technology Conference</strong><br />
-
-
-
-                Scottsdale Plaza Resort<br />Scottsdale, AZ</p>
-
-
-
-                <a href="http://events.aamga.org/core/events/events.aspx" target="_blank" rel="nofollow" class="small alert radius button">Register Online</a>
+      <div class="row collapse">
+                <div class="small-9 columns">
+                  <input type="text" placeholder="Enter terms...">
+                </div>
+                <div class="small-3 columns">
+                  <a href="#" class="button prefix">Search</a>
+                </div>
               </div>
-            </div>
 
+      <ul class="button-group radius even-2">
+      <li><a href="#" class="small alert button">Member Login</a></li>
+      <li><a href="#" class="small secondary button">Find a Member</a></li>
+      </ul>
 
-                <hr />
+    	
 
+<div class="panel callout radius">
+<div class="row">
+  <div class="small-5 columns">
+  <p><img src="images/annualmeetingbanner.jpg" /></p>
+  </div>
 
-                <h4><a href="#">March 14&#8211;15, 2013</a></h4>
-                <div class="row">
-                  <div class="large-4 columns">
-                    <p><a href="#" class="th"><img src="http://www.aamga.org/files/2013UEastBooklet-1_0.jpg?1358883762" /></a></p>
-                  </div>
-                  <div class="large-8 columns">
+  <div class="small-7 columns">
 
-
-
-                <p><strong>University East</strong><br />
-
-
-
-                Atlanta, Georgia</p>
-
-
-
-                <a href="http://events.aamga.org/core/events/events.aspx" target="_blank" rel="nofollow" class="small alert radius button">Register Online</a>
-</div></div>
-
-<hr />
+                
 
                 <h4><a href="#">May 19&#8211;22, 2013</a></h4>
 
@@ -308,8 +201,11 @@
 
                 New Orleans Marriott Hotel<br />New Orleans, LA</p>
 
+</div>
+</div>
+</div>
 
-<hr />
+<div class="panel radius">
 
 
 
@@ -365,38 +261,7 @@
 
 
 
-<hr />
 
-
-
-
-                <h4><a href="#">March 1&#8211;4, 2014</a></h4>
-
-
-
-                <p><strong>Automation and Technology Conference</strong><br />
-
-
-
-                Orlando, Florida</p>
-
-
-
-
-
-<hr />
-
-
-
-                <h4><a href="#">May 18&#8211;21, 2014</a></h4>
-
-
-
-                <p><strong>AAMGA Annual Meeting</strong><br />
-
-
-
-                Hilton Waikoloa Village, Hawaii</p>
 
 
 
@@ -409,30 +274,18 @@
 
 
 
-  							<a href="#" class="radius button">AAMGA Calendar &rarr;</a>
+  							<a href="#" class="secondary radius button">AAMGA Calendar &rarr;</a>
 
 
 
 </div>
 
-<hr />
+<p><a href="http://www.facebook.com/AAMGA"><img src="images/fbicon.jpg" width="32" /></a> <a href="https://twitter.com/aamgatweets"><img src="images/twittericon.jpg" width="32" /></a> <a href="http://www.linkedin.com/groups?gid=1820783&goback=.gdr_1279821153402_1.anb_1820783_*2"><img src="images/linkedinicon.jpg" width="32" /></a></p>
 
 
-
-      <!-- Gallery sidebar with a block grid. Note: block grid items should be the same size for optimal results -->
-      <h4>Event Photos</h4>
-      <ul class="block-grid three-up">
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-        <li><a href="#"><img src="http://placehold.it/120x120" /></a></li>
-      </ul>
     </div>
 
   </div>
-
 
 
 
@@ -449,6 +302,8 @@
       </div>
     </div>
   </footer>
+
+</div>
 
   <script>
   document.write('<script src=' +

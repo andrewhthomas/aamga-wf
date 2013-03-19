@@ -12,12 +12,12 @@
 //
 
 // This is the default html and body font-size for the base em value.
-$em-base: 14px;
+$em-base: 16px;
 
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -29,9 +29,9 @@ $em-base: 14px;
 
 // We use these as default colors throughout
 $primary-color: #075197;
-// $secondary-color: #e9e9e9;
-// $alert-color: #c60f13;
-// $success-color: #5da423;
+$secondary-color: rgb(41,47,54);
+$alert-color: rgb(164,50,21);
+$success-color: rgb(146,154,0);
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -50,7 +50,7 @@ $primary-color: #075197;
 // Grid Variables
 //
 
-// $row-width: 62.5em;
+$row-width: 71.25em;
 // $column-gutter: 1.875em;
 // $total-columns: 12;
 
@@ -70,7 +70,7 @@ $primary-color: #075197;
 //
 
 // We use these to control header font styles
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: "PT Sans Narrow", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -655,21 +655,29 @@ $h6-font-size: emCalc(12px);
 //
 
 // We use these to control the background and border styles
-// $panel-bg: darken(#fff, 5%);
+$panel-bg: #f6f5f5;
+$panel-bg-alt: #bcd4de;
 // $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-border-size: 2px;
+$panel-border-radius: 4px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: 10%;
 // $panel-border-color: darken($panel-bg, $panel-function-factor);
+$panel-border-color-alt: #9abecd;
+
+$panel-box-shadow: inset 0 1px 24px darken($panel-bg, 20%);
+$panel-box-shadow-alt: inset 0 1px 24px darken($panel-bg-alt, 20%);
 
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: emCalc(20px);
 // $panel-padding: emCalc(20px);
 
 // We use these to set default font colors
-// $panel-font-color: #333;
-// $panel-font-color-alt: #fff;
+$panel-font-color: #473f3f;
+$panel-font-color-alt: #335868;
+
+
 
 //
 // Pricing Table Variables
@@ -778,7 +786,7 @@ $h6-font-size: emCalc(12px);
 //
 
 // We use these to set padding and hover factor
-// $section-padding: emCalc(15px);
+$section-padding: emCalc(10px);
 // $section-function-factor: 10%;
 
 // These style the titles
