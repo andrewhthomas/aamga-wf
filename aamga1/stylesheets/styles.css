@@ -5764,3 +5764,8 @@ body {
   top: 60px;
   left: -40px;
 }
+
+/* line 44, ../sass/_custom.scss */
+ul, ol {
+  list-style-position: inside;
+}
