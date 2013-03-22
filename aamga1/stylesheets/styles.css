@@ -5769,3 +5769,8 @@ body {
 ul, ol {
   list-style-position: inside;
 }
+
+/* line 48, ../sass/_custom.scss */
+a.th {
+  max-width: 100%;
+}
