@@ -17,7 +17,7 @@ $em-base: 16px;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Lato", Geneva, Verdana, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -70,8 +70,8 @@ $row-width: 71.25em;
 //
 
 // We use these to control header font styles
-$header-font-family: "PT Sans Narrow", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+$header-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -80,7 +80,7 @@ $header-font-family: "PT Sans Narrow", "Helvetica Neue", "Helvetica", Helvetica,
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: emCalc(36px);
+$h1-font-size: emCalc(30px);
 $h2-font-size: emCalc(28px);
 $h3-font-size: emCalc(24px);
 $h4-font-size: emCalc(18px);
@@ -656,7 +656,7 @@ $h6-font-size: emCalc(12px);
 
 // We use these to control the background and border styles
 $panel-bg: #f6f5f5;
-$panel-bg-alt: #bcd4de;
+$panel-bg-alt: #5b93c4;
 // $panel-border-style: solid;
 $panel-border-size: 2px;
 $panel-border-radius: 4px;
@@ -664,7 +664,7 @@ $panel-border-radius: 4px;
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: 10%;
 // $panel-border-color: darken($panel-bg, $panel-function-factor);
-$panel-border-color-alt: #9abecd;
+$panel-border-color-alt: darken($panel-bg-alt, 10%);
 
 $panel-box-shadow: inset 0 1px 24px darken($panel-bg, 20%);
 $panel-box-shadow-alt: inset 0 1px 24px darken($panel-bg-alt, 20%);
@@ -675,7 +675,7 @@ $panel-box-shadow-alt: inset 0 1px 24px darken($panel-bg-alt, 20%);
 
 // We use these to set default font colors
 $panel-font-color: #473f3f;
-$panel-font-color-alt: #335868;
+$panel-font-color-alt: #efefef;
 
 
 

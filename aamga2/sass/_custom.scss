@@ -48,3 +48,22 @@ ul, ol {
 a.th {
  max-width:100% 
 }
+
+.panel.callout ul {
+	color: $panel-font-color-alt;
+}
+
+.section-container section .title a, .section-container .section .title a {
+	text-transform: uppercase;
+}
+
+.section-container.horizontal-nav section .title, .section-container.horizontal-nav .section .title {
+border: none;
+background: #fff;
+}
+
+.section-container.horizontal-nav {
+
+background: #fff;
+border: none;
+}
