@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #EEE url(../images/debut_dark.png);
+  background: #EEE url(../images/outlets.png);
 }
 
 #container {
@@ -60,6 +60,11 @@ a.th {
 .section-container.horizontal-nav section .title, .section-container.horizontal-nav .section .title {
 border: none;
 background: #fff;
+}
+
+.section-container.horizontal-nav section .title:hover,
+.section-container.horizontal-nav .section .title:hover {
+ background: #efefef;
 }
 
 .section-container.horizontal-nav {

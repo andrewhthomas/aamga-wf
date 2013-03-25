@@ -17,7 +17,7 @@ $em-base: 16px;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: "Lato", Geneva, Verdana, sans-serif;
+$body-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -28,9 +28,9 @@ $body-font-family: "Lato", Geneva, Verdana, sans-serif;
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-$primary-color: rgb(164,50,21);
+$primary-color: #075197;
 $secondary-color: rgb(41,47,54);
-$alert-color: #075197;
+$alert-color: rgb(164,50,21);
 $success-color: rgb(146,154,0);
 
 // We use these to make sure border radius matches unless we want it different.
@@ -70,8 +70,8 @@ $row-width: 71.25em;
 //
 
 // We use these to control header font styles
-$header-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: bold;
+$header-font-family: "Archivo Narrow", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: 700;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -656,7 +656,7 @@ $h6-font-size: emCalc(12px);
 
 // We use these to control the background and border styles
 $panel-bg: #f6f5f5;
-$panel-bg-alt: #5b93c4;
+$panel-bg-alt: #333;
 // $panel-border-style: solid;
 $panel-border-size: 2px;
 $panel-border-radius: 4px;
@@ -793,11 +793,11 @@ $section-padding: emCalc(10px);
 // $section-title-color: #333;
 // $section-title-bg: #efefef;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
+// $section-title-bg-active-tabs: #333;
 
 // Want to control border size, here ya go!
-// $section-border-size: 1px;
-// $section-border-style: solid;
+$section-border-size: 1px;
+$section-border-style: solid;
 // $section-border-color: #ccc;
 
 // Control the color of the background and some size options
