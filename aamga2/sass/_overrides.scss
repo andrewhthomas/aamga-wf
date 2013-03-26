@@ -17,7 +17,7 @@ $em-base: 16px;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: "Lato", Geneva, Verdana, sans-serif;
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -28,9 +28,9 @@ $body-font-family: "Lato", Geneva, Verdana, sans-serif;
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-$primary-color: rgb(164,50,21);
+$primary-color: #075197;
 $secondary-color: rgb(41,47,54);
-$alert-color: #075197;
+$alert-color: rgb(164,50,21);
 $success-color: rgb(146,154,0);
 
 // We use these to make sure border radius matches unless we want it different.
@@ -70,8 +70,8 @@ $row-width: 71.25em;
 //
 
 // We use these to control header font styles
-$header-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: bold;
+$header-font-family: "PT Sans Narrow", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+// $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -80,7 +80,7 @@ $header-font-weight: bold;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: emCalc(30px);
+$h1-font-size: emCalc(36px);
 $h2-font-size: emCalc(28px);
 $h3-font-size: emCalc(24px);
 $h4-font-size: emCalc(18px);
@@ -675,7 +675,7 @@ $panel-box-shadow-alt: inset 0 1px 24px darken($panel-bg-alt, 20%);
 
 // We use these to set default font colors
 $panel-font-color: #473f3f;
-$panel-font-color-alt: #efefef;
+$panel-font-color-alt: #fafafa;
 
 
 
@@ -786,7 +786,7 @@ $panel-font-color-alt: #efefef;
 //
 
 // We use these to set padding and hover factor
-$section-padding: emCalc(10px);
+$section-padding: emCalc(15px);
 // $section-function-factor: 10%;
 
 // These style the titles
