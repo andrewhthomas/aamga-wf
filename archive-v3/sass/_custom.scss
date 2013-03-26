@@ -1,0 +1,50 @@
+html {
+  
+}
+
+body {
+  background: #EEE url(../images/diagonales_decalees.png);
+}
+
+#container {
+	margin: 0 auto;
+	padding: 20px 0;
+	background: #FFF;
+	max-width: 72.25em;
+}
+
+#slogan {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  padding: .5em 2em 0 2em;
+}
+
+
+.panel {
+	box-shadow: $panel-box-shadow;
+}
+
+.panel.callout {
+	background: $panel-bg-alt;
+	border-color: $panel-border-color-alt;
+	box-shadow: $panel-box-shadow-alt;
+}
+
+.panel.callout a {
+	color: $panel-font-color-alt;
+}
+
+#logo-copy {
+	position: absolute;
+	top: 60px;
+	left: -40px;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+
+a.th {
+ max-width:100% 
+}
