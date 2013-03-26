@@ -17,7 +17,7 @@ $em-base: 16px;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: "Droid Serif", Georgia, Palatino, serif;
+$body-font-family: "Lato", Geneva, Verdana, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -70,8 +70,8 @@ $row-width: 71.25em;
 //
 
 // We use these to control header font styles
-$header-font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: normal;
+$header-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+// $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -80,7 +80,7 @@ $header-font-weight: normal;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: emCalc(30px);
+$h1-font-size: emCalc(36px);
 $h2-font-size: emCalc(28px);
 $h3-font-size: emCalc(24px);
 $h4-font-size: emCalc(18px);
@@ -656,7 +656,7 @@ $h6-font-size: emCalc(12px);
 
 // We use these to control the background and border styles
 $panel-bg: #f6f5f5;
-$panel-bg-alt: #5b93c4;
+$panel-bg-alt: #333;
 // $panel-border-style: solid;
 $panel-border-size: 2px;
 $panel-border-radius: 4px;
@@ -675,7 +675,7 @@ $panel-box-shadow-alt: inset 0 1px 24px darken($panel-bg-alt, 20%);
 
 // We use these to set default font colors
 $panel-font-color: #473f3f;
-$panel-font-color-alt: #efefef;
+$panel-font-color-alt: #fafafa;
 
 
 
@@ -786,18 +786,18 @@ $panel-font-color-alt: #efefef;
 //
 
 // We use these to set padding and hover factor
-$section-padding: emCalc(10px);
+$section-padding: emCalc(15px);
 // $section-function-factor: 10%;
 
 // These style the titles
-$section-title-color: #333;
-$section-title-bg: #fff;
+// $section-title-color: #333;
+// $section-title-bg: #efefef;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #333;
+// $section-title-bg-active-tabs: #fff;
 
 // Want to control border size, here ya go!
-$section-border-size: 1px;
-$section-border-style: dashed;
+// $section-border-size: 1px;
+// $section-border-style: solid;
 // $section-border-color: #ccc;
 
 // Control the color of the background and some size options
@@ -1003,7 +1003,7 @@ $section-border-style: dashed;
 
 $fontFileName: "../fonts/general_foundicons";
 $fontName: "GeneralFoundicons";
-$classPrefix: "foundicon-";
+$classPrefix: "general-foundicon-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 
@@ -1025,6 +1025,35 @@ $classPrefix: "foundicon-";
          url('#{$fontFileName}.woff') format('woff'),
          url('#{$fontFileName}.ttf') format('truetype'),
          url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+$socialFontFileName: "../fonts/social_foundicons";
+$socialFontName: "SocialFoundicons";
+$socialClassPrefix: "social-foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$socialClassPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$socialClassPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $socialFontName;
+    src: url('#{$socialFontFileName}.eot');
+    src: url('#{$socialFontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$socialFontFileName}.woff') format('woff'),
+         url('#{$socialFontFileName}.ttf') format('truetype'),
+         url('#{$socialFontFileName}.svg##{$socialFontName}') format('svg');
     font-weight: normal;
     font-style: normal;
   }
