@@ -1,0 +1,54 @@
+@import "settings";
+
+/* font-face */
+@include social-face;
+
+/* global foundicon styles */
+[class*="#{$socialClassPrefix}"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+[class*="#{$socialClassPrefix}"]:before {
+  font-family: $socialFontName;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+@include social-i-class(thumb-up,"000");
+@include social-i-class(thumb-down,"001");
+@include social-i-class(rss,"002");
+@include social-i-class(facebook,"003");
+@include social-i-class(twitter,"004");
+@include social-i-class(pinterest,"005");
+@include social-i-class(github,"006");
+@include social-i-class(path,"007");
+@include social-i-class(linkedin,"008");
+@include social-i-class(dribbble,"009");
+@include social-i-class(stumble-upon,"00a");
+@include social-i-class(behance,"00b");
+@include social-i-class(reddit,"00c");
+@include social-i-class(google-plus,"00d");
+@include social-i-class(youtube,"00e");
+@include social-i-class(vimeo,"00f");
+@include social-i-class(flickr,"010");
+@include social-i-class(slideshare,"011");
+@include social-i-class(picassa,"012");
+@include social-i-class(skype,"013");
+@include social-i-class(steam,"014");
+@include social-i-class(instagram,"015");
+@include social-i-class(foursquare,"016");
+@include social-i-class(delicious,"017");
+@include social-i-class(chat,"018");
+@include social-i-class(torso,"019");
+@include social-i-class(tumblr,"01a");
+@include social-i-class(video-chat,"01b");
+@include social-i-class(digg,"01c");
+@include social-i-class(wordpress,"01d");
