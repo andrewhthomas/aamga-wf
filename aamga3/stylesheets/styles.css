@@ -5538,9 +5538,9 @@ table tfoot tr td {
 
 /* font-face */
 @font-face {
-  font-family: "SocialFoundicons";
-  src: url("../fonts/social_foundicons.eot");
-  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general_foundicons.eot");
+  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5567,238 +5567,238 @@ table tfoot tr td {
 }
 
 /* icons */
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-settings:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-settings:before {
   content: "\f000";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-heart:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-heart:before {
   content: "\f001";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-star:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-star:before {
   content: "\f002";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-plus:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-plus:before {
   content: "\f003";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-minus:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-minus:before {
   content: "\f004";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-checkmark:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-checkmark:before {
   content: "\f005";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-remove:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-remove:before {
   content: "\f006";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-mail:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-mail:before {
   content: "\f007";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-calendar:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-calendar:before {
   content: "\f008";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-page:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-page:before {
   content: "\f009";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-tools:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-tools:before {
   content: "\f00a";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-globe:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-globe:before {
   content: "\f00b";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-home:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-home:before {
   content: "\f00c";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-quote:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-quote:before {
   content: "\f00d";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-people:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-people:before {
   content: "\f00e";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-monitor:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-monitor:before {
   content: "\f00f";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-laptop:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-laptop:before {
   content: "\f010";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-phone:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-phone:before {
   content: "\f011";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-cloud:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-cloud:before {
   content: "\f012";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-error:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-error:before {
   content: "\f013";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-right-arrow:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-right-arrow:before {
   content: "\f014";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-left-arrow:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-left-arrow:before {
   content: "\f015";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-up-arrow:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-up-arrow:before {
   content: "\f016";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-down-arrow:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-down-arrow:before {
   content: "\f017";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-trash:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-trash:before {
   content: "\f018";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-add-doc:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-add-doc:before {
   content: "\f019";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-edit:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-edit:before {
   content: "\f01a";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-lock:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-lock:before {
   content: "\f01b";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-unlock:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-unlock:before {
   content: "\f01c";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-refresh:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-refresh:before {
   content: "\f01d";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-paper-clip:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-paper-clip:before {
   content: "\f01e";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-video:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-video:before {
   content: "\f01f";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-photo:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-photo:before {
   content: "\f020";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-graph:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-graph:before {
   content: "\f021";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-idea:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-idea:before {
   content: "\f022";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-mic:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-mic:before {
   content: "\f023";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-cart:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-cart:before {
   content: "\f024";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-address-book:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-address-book:before {
   content: "\f025";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-compass:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-compass:before {
   content: "\f026";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-flag:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-flag:before {
   content: "\f027";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-location:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-location:before {
   content: "\f028";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-clock:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-clock:before {
   content: "\f029";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-folder:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-folder:before {
   content: "\f02a";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-inbox:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-inbox:before {
   content: "\f02b";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-website:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-website:before {
   content: "\f02c";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-smiley:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-smiley:before {
   content: "\f02d";
 }
 
-/* line 1038, ../sass/_overrides.scss */
-.social-foundicon-search:before {
+/* line 1009, ../sass/_overrides.scss */
+.general-foundicon-search:before {
   content: "\f02e";
 }
 

@@ -1034,19 +1034,19 @@ $socialFontFileName: "../fonts/social_foundicons";
 $socialFontName: "SocialFoundicons";
 $socialClassPrefix: "social-foundicon-";
 
-@mixin i-class($name,$pua) {
+@mixin social-i-class($name,$pua) {
   .#{$socialClassPrefix}#{$name}:before { 
     content: "\f#{$pua}";
   }
 }
 
-@mixin ie-class($name,$pua) {
+@mixin social-ie-class($name,$pua) {
   .#{$socialClassPrefix}#{$name} { 
     *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
   }
 }
 
-@mixin face {
+@mixin social-face {
   @font-face { 
     font-family: $socialFontName;
     src: url('#{$socialFontFileName}.eot');
