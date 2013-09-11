@@ -1,0 +1,85 @@
+body {
+  margin: 20px auto;
+}
+
+#slogan {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  padding: .5em 2em 0 2em;
+}
+
+.nav-bar {
+  background: #dde8f6 url("../images/bg-primary-nav.png") repeat-x center left;
+}
+
+.nav-bar > li {
+  border: none;
+  border-right: none;
+}
+
+.nav-bar > li:hover {
+  background: #dde8f6;
+}
+
+.nav-bar > li.active {
+  background: #dde8f6;
+  border-color: #053766;
+}
+
+.nav-bar > li.active:hover {
+  background: #dde8f6;
+}
+
+.nav-bar > li:last-child {
+  border-right: none;
+}
+
+.nav-bar > li > a {
+  color: #0055a5;
+  font-weight: 700;
+  font-family: 'Open Sans', Frutiger, 'Frutiger Linotype', Calibri, 'Liberation Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-bar > li.active > a {
+    color: #0055a5;
+}
+
+
+
+#secondary-menu {
+  background: #075197 url(../images/bg-secondary-nav.png) repeat-x left top;
+  margin-bottom: 0;
+}
+
+#secondary-menu > li:hover {
+  background: #075197 url(../images/bg-secondary-nav.png) repeat-x left top;
+}
+
+#secondary-menu > li:hover > a {
+  text-decoration: underline;
+}
+
+#secondary-menu > li > a {
+  color: #FFF;
+  font-weight: 700;
+  font-family: 'Open Sans', Frutiger, 'Frutiger Linotype', Calibri, 'Liberation Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#primary-menu {
+  margin-top: 0;
+}
+
+.panel {
+  background: #fff url("../images/bg-panel.png") repeat-x left top;
+  border: none;
+}
+
+#events {
+  background: #075197 url(../images/bg-secondary-nav.png) repeat-x left top;
+  margin: 0;
+  color: #FFF;
+  padding: .5em;
+  text-transform: uppercase;
+}
